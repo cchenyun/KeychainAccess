@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/k_katsumi'
 
   s.requires_arc = true
-  s.source_files = 'Lib/KeychainAccess/*.swift'
+  s.source_files = ['Lib/KeychainAccess/*.swift', 'Lib/KeychainAccess/PrivacyInfo.xcprivacy']
 
   s.swift_version = '5.1'
 
